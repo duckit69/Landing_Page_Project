@@ -142,19 +142,21 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 460px;
+    /*padding: 0 460px;*/
 }
 
 .content-2 p:first-of-type {
     font-size: 36px;
     color: var(--dark-background);
+    width: 800px;
 }
 
-.content-2 p:nth-of-type(2) {
+.test {
     color: var(--dark-background);
-    align-self: flex-end;
     margin-right: 40px;
     font-weight: bold;
+    font-size: 18px;
+    margin-left: 250px;
 }
 
 .content-3 {
